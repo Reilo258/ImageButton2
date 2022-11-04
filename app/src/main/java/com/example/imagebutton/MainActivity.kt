@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         var a5 = 0;
 
         btn1.setOnClickListener {
-            Toast.makeText(applicationContext, "To jest Rote Kampfliger", length).show();
+            Toast.makeText(applicationContext, "To jest Rote Kampfflieger", length).show();
             a1+=1;
             if(a1%2==0)
                 btn1.alpha = 1F;
